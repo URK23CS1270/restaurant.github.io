@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu Website</title>
+    <!-- This is the head section -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+        }
+        nav a {
+            margin: 0 1em;
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 1em;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        img {
+            max-width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1> <span style="color:rgb(255, 0, 140);">Welcome to BLUE MOON Restaurant</span> </h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#specials">Specials</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Bookmark Target -->
+    <section id="menu">
+        <h2>📜 Our Menu</h2>
+
+        <!-- Working with Table -->
+        <table>
+            <caption>Today's Specials</caption>
+            <thead>
+                <tr>
+                    <th>Dish</th>
+                    <th>Description</th>
+                    <th>Price (&dollar;)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Grilled Chicken</td>
+                    <td>Served with veggies and rice</td>
+                    <td>12.50</td>
+                </tr>
+                <tr>
+                    <td>Peri Peri Fries</td>
+                    <td>Fresh romaine lettuce & parmesan</td>
+                    <td>15.99</td>
+                </tr>
+                <tr>
+                    <td>Ice Creams</td>
+                    <td>Served with Different Flavors and Milk Shakes</td>
+                    <td>30.50</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Working with List -->
+    <section id="specials">
+        <h2>🔥 Weekly Specials</h2>
+        <ul>
+            <li>Monday - Mutton Pulav</li>
+            <li>Wednesday - Naan + Starter</li>
+            <li>Friday - Any Flavor Ice Cream</li>
+        </ul>
+
+        <h3>🍽 Must-Try Combos:</h3>
+        <ol>
+            <li>Peri Peri Fries + Pot Biryani + Tandori Chicken </li>
+            <li>Garlic Naan + Malai Kofta</li>
+            <li>Chicken Biryani + Dragon Paneer</li>
+        </ol>
+    </section>
+
+    <!-- Working with Text -->
+    <section>
+        <h2>About Us</h2>
+        <p>At BLUE MOON, <span style="font-style:italic;">Where starlight nights meet savory delights with heart full of love bcoz</span> <span style="font-weight:bold;">Lunar love in every bite</span>.</p>
+    </section>
+
+    <!-- Images -->
+    <section>
+        <h2>Menu Card</h2>
+        <img src="c:\Users\lasya\Downloads\Menu card.jpg" alt="menu card">
+        <img src="c:\Users\lasya\Downloads\ice cream.jpg" alt="ice cream">
+    </section>
+
+    <!-- Links and Bookmarks -->
+    <section id="contact">
+        <h2>📞 Contact Us</h2>
+        <p>Email us at <a href="mailto:info@bluemoon.com">info@bluemoon.com</a></p>
+        <p>Go back to <a href="#menu">Menu Section</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>2025 BLUE MOON Restaurant. <span style="font-style:italic"> Dine under the stars and moon</span>.</p>
+        <!-- HTML Comment: This is the footer section -->
+    </footer>
+</body>
+</html>
