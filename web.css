@@ -1,0 +1,150 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fffdfd;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header & Footer */
+header, footer {
+    background-color: #1c1c2e;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+}
+
+header h1 span {
+    color: #ff008c;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ffcad4;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/* Section Styling */
+section {
+    padding: 2em;
+    max-width: 960px;
+    margin: auto;
+}
+
+h2 {
+    color: #2d2d50;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #4a295f;
+    margin-top: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+}
+
+th {
+    background-color: #ece6f0;
+    color: #333;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* List Styling */
+ul, ol {
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+ul li, ol li {
+    margin-bottom: 8px;
+}
+
+/* About Us Text */
+section p span {
+    display: inline-block;
+    margin-right: 4px;
+}
+
+/* Image Styling */
+img {
+    max-width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Links */
+a {
+    color: #ff008c;
+}
+
+a:hover {
+    color: #d6006d;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer p {
+    font-size: 0.9rem;
+    margin-top: 1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header, footer {
+        text-align: center;
+        padding: 1em;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    section {
+        padding: 1.5em 1em;
+    }
+}
